@@ -1,0 +1,11 @@
+The data directory contains the following files:
+
+train: The labeled training data, one word per line, with the associated label (PERSON | O)
+
+dev: The development set, one word per line, on which you will push performance
+
+train2, dev2 are the same files as before, but with starting and ending tokens (<s>, </s>) added for each sentence.
+
+vocab.txt: List of words in the vocabulary, one per line, in the same order as the word vectors file
+
+wordVectors.txt: Word vectors corresponding to the words in vocab.txt. Again, one vector per row. Each row should contain 50 numbers since our word vectors are 50-dimensional.
